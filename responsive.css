@@ -1,0 +1,395 @@
+@media screen and (max-width: 1250px)  {
+    html{
+        font-size: 50%;
+    }
+    .more{
+        margin-top: 29rem;
+    }
+}
+    
+@media screen and (max-width: 1024px)  {
+    html{
+        font-size: 40%;
+    }
+    .more{
+        margin-top: 33rem;
+    }
+}
+
+@media screen and (max-width: 819px) {
+    html{
+        font-size: 40%;
+        overflow-x: hidden;
+    }
+    .text-header{
+        padding: 2.4rem 15rem;
+        width: 100vw;
+        text-align: center;
+    }
+    .label{
+        color: #FFF;
+        /* text-align: center; */
+    }
+    .title{
+        color: #FFF;
+        /* text-align: center; */
+        padding: 32px 0 32px 0 ;
+    }
+    .descr{
+        color: #FFF;
+        /* text-align: center; */
+    }
+    .scroll-down{
+        left: calc(50% - 2.5rem);
+        border: 2px solid #FFF;
+    }
+    .scroll-down svg path{
+        fill: #fff;
+    }
+    .nav{
+        width: calc(100% - 15rem);
+        left: 7.5rem;
+    }
+    .nav h3{
+        coLor: #ffffff;
+        font-size: 4rem;
+        font-family: 'Merriweather';
+        font-weight: bold;
+    }
+    .nav a, .contact-logo{
+        display: none;
+    }
+    .img-header{
+        width: 100vw;
+    }
+
+    /* ############################## FIND ROOM ################################ */
+    .findRoom-title{
+        width: calc(100% - 15rem);
+        padding-top: 6.4rem;
+        margin-left: 7.5rem;
+    }
+    .findRoom-title h1{
+        font-size: 5.5rem;
+        font-family: 'Merriweather';
+        font-weight: 300;
+        color: #706458;
+    }
+    .findRoom-container{
+        width: calc(100% - 15rem);
+        height: fit-content;
+        margin-left: 7.5rem;
+        display: flex;
+        flex-direction:row ;
+        /* border: 1px solid blue; */
+    }
+    .description-findroom{
+        width: calc(100% - 30rem);
+        margin-left: 0rem;
+        /* border: 1px solid green; */
+    }
+    .description-findroom h3{
+        font-size: 2rem;
+        font-family: 'Varta';
+        font-weight: normal;
+    }
+    .bedroom{
+        height: 35rem;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10rem;
+        /* border: 1px solid brown; */
+    }
+    
+    .living-room{
+        display: none;
+    }
+    .slider-nav{
+        width: calc(100% - 15rem);
+        /* margin: top right bottom left */
+        margin: 4.8rem  0 4.8rem 7.5rem;
+    }
+    .next{
+        width: fit-content;
+        position: absolute;
+        right: 7.5rem;
+        /* border: 1px solid blue; */
+    }
+    /* ############################## PROJECT ################################ */
+    
+    .project-container{
+        width: 100%;
+        height: 525px;
+        border: 1px solid rgba(0, 0, 0, 0);
+    }
+    .project-title{
+        width: calc(100% - 25rem);
+        height: 19rem;
+        margin-top: 0;
+        margin-left: 7.5rem;
+        /* border: 1px solid red; */
+    }
+    .project-title h1{
+        line-height:40px;
+    }
+    .more{
+        width: 15rem;
+        /* border: 1px solid green; */
+        margin-left: 7.5rem;
+        margin-top: 125px;
+    }
+    .text-project{
+        width: calc(100% - 15rem);
+        height: 100%;
+        margin-top: 125px;
+        float: none;
+        margin-left: 7.5rem;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid grey; */
+    }
+    .p1, .p2, .p3, .p4{
+        position: relative;
+        width: 80%;
+        height: fit-content;
+        margin-top: 3.2rem;
+        margin-left: 0px;
+        /* border: 1px solid brown; */
+    }
+    .p1{
+        margin-top: 6.4rem;
+        margin-bottom: 0;
+    }
+    .p1 h2, .p2 h2, .p3 h2, .p4 h2{
+        font-size: 2.8rem;
+    }
+    .p1 p, .p2 p, .p3 p, .p4 p{
+        font-size: 2.1rem;
+    }
+    
+    /* ############################## LATEST TREND ################################ */
+    .latestTrends{
+        width: 100vw;
+        height: 950px;
+        background-color: #fff;
+    }
+    #intro-latest-trend{
+        width: calc(100% - 15rem);
+        height: fit-content;
+        margin-left: 7.5rem;
+        /* border: 1px solid olive; */
+    }
+    .latest-trend-container{
+        width: 100%;
+        position: relative;
+        /* border: 1px solid red; */
+    }
+    #latest-trend-title{
+        height: 4rem;
+    }
+    #latest-trend-title h1{
+        font-size: 4rem;
+        width: 80%;
+    }
+    #latest-trend-descr{
+        /* position: relative; */
+        width: 75%;
+        height: fit-content;
+        margin-top: 9rem;
+        /* border: 1px solid red; */
+    }
+    #latest-trend-descr p{
+        font-size: 2.2rem;
+    }
+    .learn-more{
+        margin-top: 3.2rem;
+    }
+    .learn-more h3{
+        font-size: 2rem;
+    }
+    .input-container{
+        width: 100%;
+        margin-left: 0;
+        /* border: 1px solid rgb(136, 104, 255); */
+    }
+    #slider-trend{
+        width: calc(100% );
+        height: 75rem;
+        margin-top: 3.2rem;
+        margin-left: 0rem;
+        display: flex;
+        flex: 1 1 50%;
+        flex-wrap: wrap;
+        justify-content: unset;
+        /* border: 1px solid purple; */
+    }
+    label{
+        display: block;
+        color: #121212;
+        font-family: 'Varta';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+    }
+    .chair{
+        margin-left: 5rem;
+        margin-top: 32rem;
+    }
+    .cooked{
+        margin-left: 35rem;
+        margin-top: 32rem;
+    }
+    .canape{
+        margin-left: 5rem;
+        margin-top: 69rem;
+    }
+    .tables{
+        margin-left: 35rem;
+        margin-top: 69rem;
+    }
+    #slider-trend .full-img{
+        width: 25rem;
+        height: 30rem;
+        margin-left: 32px;
+    }
+    #slider-trend .responsive-img{
+        display: block;
+    }
+    #slider-trend .half-img{
+        display: none;
+    }
+    #inspiration{
+        width: calc(100% - 15rem);
+        height: 140px;
+        margin-left: 7.5rem;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid rebeccapurple; */
+    }
+    .inspiration-title{
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 8px;
+        /* border: 1px solid red; */
+    }
+    .inspiration-p{
+        width: 100%;
+    }
+    .inspiration-p p{
+        font-size: 2.2rem;
+    }
+    .pagination-container{
+        display: none;
+    }    
+
+    /* ############################## FOOTER ################################ */
+    .footer{
+        width: 100vw;
+        height: 1508px;
+        background-color: #F3EEE8;
+        padding-top: 6.4rem;
+        /* display: flex; */
+    }
+    #content{
+        width: calc(100% - 15rem);
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin-left: 7.5rem;
+        /* margin-top: 6.4rem; */
+        /* border: 1px solid brown; */
+    }
+    .footer-title{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .footer-title h1{
+        font-size: 4rem;
+    }
+    #column-container{
+        width: 100%;
+        height: fit-content;
+        margin-left: 0rem;
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+    }
+    .column{
+        width: calc(100%);
+        /* border: 1px solid blue; */
+    }
+    .column h2{
+        font-weight: 700;
+        font-size: 2.9rem;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .column h3{
+        font-size: 2.2rem;
+        margin-bottom: 4px;
+    }
+    
+    #blog{
+        width: 100%;
+        height: fit-content;
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid green; */
+    }
+    .blog-title{
+        width: 100%;
+        height: fit-content;
+        /* border: 1px solid red; */
+    }
+    #blog h2{
+        font-size: 2.9rem;
+    }
+    .img-container img{
+        width: 100%;
+        height: 200px;
+    }
+    .blog-descr p{
+        font-size: 2.2rem;
+    }
+    
+    #socials{
+        margin-top: 32px;
+    }
+    .facebook img, .twitter img, .linkedin img, .instagram img{
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    #legals{
+        width: calc(100% - 15rem);
+        height: fit-content;
+        margin-left: 7.5rem;
+        display: flex;
+        flex-direction: column-reverse;
+        /* border: 1px solid cyan; */
+    }
+    .copyright h4{
+        font-size: 1.8rem;
+    }
+    .links{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        /* border: 1px solid red; */
+    }
+    .privacy h4, .terms h4, .language h4{
+        font-size: 1.8rem;
+    }
+    
+}
+
